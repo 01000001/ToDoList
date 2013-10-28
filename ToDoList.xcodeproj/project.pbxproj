@@ -19,6 +19,7 @@
 		EBA33DFE181E8E3600B56CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA33DE6181E8E3500B56CBA /* UIKit.framework */; };
 		EBA33E06181E8E3600B56CBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA33E04181E8E3600B56CBA /* InfoPlist.strings */; };
 		EBA33E08181E8E3600B56CBA /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA33E07181E8E3600B56CBA /* ToDoListTests.m */; };
+		EBA33E12181E95D300B56CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA33E11181E95D300B56CBA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		EBA33E03181E8E3600B56CBA /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		EBA33E05181E8E3600B56CBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBA33E07181E8E3600B56CBA /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		EBA33E11181E95D300B56CBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				EBA33DF1181E8E3600B56CBA /* AppDelegate.h */,
 				EBA33DF2181E8E3600B56CBA /* AppDelegate.m */,
+				EBA33E11181E95D300B56CBA /* Main.storyboard */,
 				EBA33DF4181E8E3600B56CBA /* Images.xcassets */,
 				EBA33DE9181E8E3500B56CBA /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA33E12181E95D300B56CBA /* Main.storyboard in Resources */,
 				EBA33DED181E8E3500B56CBA /* InfoPlist.strings in Resources */,
 				EBA33DF5181E8E3600B56CBA /* Images.xcassets in Resources */,
 			);
